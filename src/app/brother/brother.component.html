@@ -1,0 +1,21 @@
+<!-- <h1 class="bg-fuchsia-700 mt-52">{{name}}</h1>
+
+<button type="button" (click)="greet()">Send</button>
+<button type="button" (click)="ask()">Ask to son</button>
+ -->
+
+
+ <div appEstyleBrother>
+    <h1> {{name}} </h1>
+    <h2>Today : {{ fecha | date : 'short' }} </h2>
+    <h3>El dolar es {{dolar | currency }} </h3>
+
+    <h1>El valor de pi es {{ valuePi | number : "1.0-0" }} </h1>
+
+    <h1> El valor en porcentaje es {{percent | percent }} </h1>
+
+    <div class="flex-x-10 *:bg-yellow-400 *:rounded-xl *:p-2">
+        <button type="button" (click)="greet()">Greet</button>
+        <button type="button" (click)="message()">Message</button>
+    </div>
+ </div>

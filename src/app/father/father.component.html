@@ -1,0 +1,66 @@
+<!-- <div class="text-blue-400 font-semibold text-2xl flex justify-center font-mono mt-10">My first job in Angular</div>
+<div class="flex-col flex items-center mt-5 space-y-5">
+    <h1>Mi number is : {{number}}</h1>
+    <div class="space-x-10 *:bg-blue-200 *:p-2 *:rounded-2xl">
+        <button type="button" (click)="increase()" >Pluss</button>
+        <button type="button" (click)="decrease()" >Less</button>
+    </div>
+</div>
+
+<div>
+    I want to change a word:
+    {{word}}
+    <button type="button" (click)="change()" >Change a word</button>
+</div>
+
+<div class="bg-pink-300">
+    I'm the father :
+    <app-son [messageHijo]="element"></app-son>
+</div>
+
+<app-son (messageFronSon)="dateContent($event)" ></app-son>
+
+<h5 class="bg-red-400 text-white">El mensaje recibido por el hijo es: {{contentDate}} </h5> -->
+
+<!-- <div class="bg-red-300 w-56 h-20">
+    That I'm me 
+    <app-son [messageSon]="message" ></app-son>
+</div> -->
+
+<!-- <div class="flex justify-center bg-green-400 text-black">
+    <app-son (contentSon)="sendDate12($event)" > </app-son>
+    <h5>El mensaje del hijo es : {{dateContent}} </h5>
+</div> -->
+
+<!-- <div class="bg-red-300 flex justify-center text-blue-800">
+    <app-son [valueSon]="info" ></app-son>
+</div> -->
+
+<!-- <div class="bg-black text-white mt-40">
+    The value is :
+    <app-son (dataSon)="getData($event)" ></app-son>
+    {{data}}
+</div> -->
+
+<!-- <app-son (getIncrease)="increase()" (getDecrease)="decrease()"   ></app-son>
+
+<div class="bg-red-800 flex justify-center text-white">
+    The numer is : {{dateInfo}}
+</div> -->
+
+<!-- <h1 class="text-3xl text-red-300">{{name}}</h1>
+
+<div class="*:bg-red-600 *:p-1 space-x-5 *:rounded-lg">
+    <button type="button" (click)="greet()">Send</button>
+    <button type="button" (click)="ask()">Ask to soon</button>
+</div> -->
+
+
+<div class="flex items-center w-max bg-red-300  p-2 flex-col space-y-10">
+    <h1 class="">{{ name | myOwnPipe }}</h1>
+
+    <div class="space-x-10">
+        <button type="button" (click)="greet()" >Greet</button>
+        <button type="button" (click)="message()" >Message</button>
+    </div>
+</div>
